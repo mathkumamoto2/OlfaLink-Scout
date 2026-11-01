@@ -98,14 +98,17 @@ URDFで定義した差動二輪ロボットを使用します。
 
 におい分布は、方向によって広がりが異なる2次元ガウス関数によって近似します。
 
-\[
-C(x,y)=\exp\left[-\frac{1}{2}
+```math
+C(x,y) = \exp\left[
+-\frac{1}{2}
 \left(
 \frac{x'^2}{\sigma_x^2}
 +
 \frac{y'^2}{\sigma_y^2}
-\right)\right]
-\]
+\right)
+\right]
+```
+
 
 ここで、\(x',y'\) は発生源を中心として回転変換した座標です。
 
