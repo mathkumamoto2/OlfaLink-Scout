@@ -1,0 +1,16 @@
+OlfaLink Scout Windows/Genesis 完成版ソース
+
+1. ZIPを展開（例: C:\Projects\OlfaLink_Scout_Windows_Desktop）
+2. Python 3.11 x64がない場合は先にインストール
+3. setup_windows.bat をダブルクリック
+4. 01_physics_test.bat をダブルクリック（必ず最初に実行）
+5. 動いたら 02_train_ppo.bat → 03_evaluate.bat → 04_record_3d_ppo.bat の順
+6. 07_generate_submission_pdf.bat で提出用PDFを作成
+
+3D動画だけ先に確認したい場合：06_preview_3d_scripted.bat
+※ これは固定動作でありAI学習の結果ではありません。
+
+重要：制作環境ではGenesis本体を実行できていません。物理の実測テストを
+あなたのデスクトップで通すまでは「物理エンジン実行確認済み」とは扱えません。
+
+詳しくはREADME.md・VERIFICATION.md。
